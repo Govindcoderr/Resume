@@ -8,29 +8,57 @@
     background-color: rgb(22, 22, 59);
     height: 100vh;
     width: 100%;
+    padding-top: 50px;
 }
- #ab{
-     position: absolute; 
-    top: 10%;
-    left: 40%;
 
-} 
+
+#img{
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+   
+}
+
+ /* #ab{
+     /* position: absolute;  *
+    /* top: 10%;
+    left: 40%; *
+    margin: auto;
+
+}  */
+
+
+
+
 .content{
-        position: absolute;
-        top: 50%;
-        left: 30%;
+        /* position: absolute; */
+        /* top: 50%;
+        left: 30%; */
         width: 40%;
         font-size:medium ;
         color: white;
         text-align: center;
-
-}
-#img{
-    height: 200px;
-    border-radius: 50%;
-    left: 40%;
+        margin: auto;
+        margin-top: 50px;
 }
 
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3,h4 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    display: inline-block;
+}
 .icon{
     font-size: 30px;
     color: white;
@@ -67,15 +95,18 @@ li{
     padding-bottom: 20px;
     font-size: 20px;
 }
-h3{
-    margin:  0px 30px;
-}
+
 #p2{
-            font-size: 30px;
+    margin: 5px;
+}
+
+#p2 span{
+            font-size: 20px;
             font-weight: 500;
-            padding: 0px; 
-            margin-bottom: 5px;
-            text-decoration:;
+            /* padding: 0px;  */
+            text-align: justify;
+            /* margin: 15px; */
+            /* text-decoration:; */
 }
 footer{
     background-color: rgb(22, 22, 59);
@@ -84,4 +115,44 @@ footer{
     font-size: 20px;
     color: white;
     font-style: unset;
+}
+
+@media (max-width : 800px) {
+    .xyz{
+      
+        padding-top: 10px;
+    }
+    .content{
+       
+        margin-top: 10px;
+}
+    #img{
+        height: 120px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h3, h4, .fa-brands{
+        font-size: 15px;
+    }
+}
+
+@media(min-width : 800px) and (max-width : 1200px) {
+    .xyz{
+      
+        padding-top: 20px;
+    }
+    .content{
+       
+        margin-top: 30px;
+}
+    #img{
+        height: 170px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h3, h4, .fa-brands{
+        font-size: 15px;
+    }
 }
